@@ -3,8 +3,8 @@ html,body{
     margin: 0 auto;
     color: var(--text-color);
     background-color: var(--background-color);
+    background-image: url("https://www.transparenttextures.com/patterns/xv.png");
 }
-  
 
 html {
     font-family: $main-font;
@@ -13,17 +13,16 @@ html {
 }
 
 body{
-    font-size: 2.25rem;
+    font-size: 2.25rem;    
 }
 
 header {
     font-size: 4rem;
     font-family: $header-font;
-    padding: 3rem;
 }
 
 header.sticky {
-    background-color: #839c5d;
+    background-color: rgba(131,156,93,0.99);//#839c5d;
     position: sticky;
     top: 0;
     z-index: 999;
@@ -36,7 +35,6 @@ header.sticky {
 .header-content {
     margin: 0 auto;
     display: flex;
-    padding: 3rem;
 }
 
 
